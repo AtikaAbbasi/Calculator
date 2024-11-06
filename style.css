@@ -6,12 +6,18 @@
 }
 
 .maincon{
-    background-color: rgb(142, 177, 241);
+    /* background-color: rgb(142, 177, 241); */
+    /* background-image: url(https://i.pinimg.com/736x/86/b2/f1/86b2f170afc96479f08efed665c2f999.jpg); */
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/images6/Free-download-Laptop-Wallpaper-Aesthetic-Wallpaper.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
     display: flex;
      width: 100%; 
      height: 100vh;
     justify-content: center;
     align-items: center;
+  
 
 }
 
@@ -20,25 +26,35 @@
 .box{
 
     padding: 1em;
-    background-color: palevioletred;
-    border-radius: 12px;
+    background-color: rgb(154, 154, 154);
+    border-radius: 10px;
+  
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 input{
-    width: 60px;
-    height: 60px;
-    border-radius: 60%;
-    background-color: rgb(43, 143, 176);
+    width: 57px;
+    height: 57px;
+    border-radius: 22px;
+    font-family: "Itim", cursive;
+    background-color: rgba(42, 114, 139, 0.737);
     margin: 5px;
     font-size: 1.4em;
-    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border: 1px solid white;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
 }
 
 #cal{
     width: 98%;
-    border-radius:0;
+    border-radius:4px;
+    text-align: right;
+   font-family: "Itim", cursive;
+   font-size: 1.4em;
+   margin-bottom: 1em;
 }
 
 #two{
@@ -46,6 +62,34 @@ input{
     border-radius: 8px;
 }
 
+.can{
+    background-color: crimson;
+}
+
+.can2{
+    background-color: cornflowerblue;
+}
+
+
+.can3{
+    background-color: rgb(147, 78, 197);
+}
+
+
+.can4{
+    background-color: pink;
+}
+
+
+.can5{
+    background-color: rgb(3, 3, 3);
+    color: rgb(255, 255, 255);
+}
+
+.can6{
+    background-color: rgb(250, 250, 250);
+    color: black;
+}
 
 
  @media(max-width:378px){
