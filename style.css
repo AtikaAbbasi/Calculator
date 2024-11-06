@@ -6,16 +6,12 @@
 }
 
 .maincon{
-    /* background-color: rgb(142, 177, 241); */
-    /* background-image: url(https://i.pinimg.com/736x/86/b2/f1/86b2f170afc96479f08efed665c2f999.jpg); */
-    background-image: url(https://www.pixelstalk.net/wp-content/uploads/images6/Free-download-Laptop-Wallpaper-Aesthetic-Wallpaper.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-
-    display: flex;
-     width: 100%; 
+      width: 100%; 
      height: 100vh;
-    justify-content: center;
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/images6/Free-download-Laptop-Wallpaper-Aesthetic-Wallpaper.jpg);
+   object-fit: cover;
+  display: flex;
+   justify-content: center;
     align-items: center;
   
 
@@ -43,16 +39,15 @@ input{
   border: 1px solid white;
   cursor: pointer;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
-    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
-    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+
 }
 
 #cal{
-    width: 98%;
-    border-radius:4px;
+   
     text-align: right;
    font-family: "Itim", cursive;
+   width:97%;
+   border-radius:4px;
    font-size: 1.4em;
    margin-bottom: 1em;
 }
@@ -92,22 +87,37 @@ input{
 }
 
 
- @media(max-width:378px){
+ @media(max-width:345px){
   
-input{
-    width: 40px;
-    height: 40px;
-    font-size: 1.1em;
 
+input{
+    width: 35px;
+    height: 35px; 
+    border-radius: 20%;
+    font-size: 1em;
+
+     
 } 
+
+#cal{
+    font-size: 1em;
+}
+
 
 #two{
     width: 90px;
     
 }
 
-.box{
-    width: 244px;
-}
 
 } 
+
+
+/* @media(max-width:341px){
+    input{
+    
+        width: 30px;
+        height: 30px; 
+       
+    }   
+} */
